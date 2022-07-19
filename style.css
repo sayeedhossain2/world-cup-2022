@@ -19,7 +19,7 @@ main {
 
 .marcelo {
   display: flex;
-  height: 76vh;
+  height: 79vh;
   background-color: #161616;
   color: white;
   border-radius: 30px;
@@ -58,7 +58,7 @@ main {
   width: 50%;
 }
 .marcelo-img {
-  height: 499px;
+  height: 519px;
   margin-left: 50px;
 }
 
@@ -94,6 +94,7 @@ main {
   width: 200px;
   height: 70px;
   border-radius: 10px;
+  border: none;
 }
 .sidebar .btn {
   background-color: #dd0000;
@@ -117,4 +118,55 @@ main {
 .watch-comment-icon {
   display: flex;
   column-gap: 60px;
+}
+.watch-comment-icon .fa-clock,
+.fa-message {
+  margin-right: 12px;
+}
+
+/* view btn */
+
+.view-btn {
+  width: 131px;
+  height: 47px;
+  background-color: #dd0000;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.view-button {
+  text-align: center;
+  display: none;
+}
+
+/* footer start */
+footer {
+  background-color: #161616;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+  margin-top: 50px;
+}
+footer h1 {
+  margin-bottom: 50px;
+}
+hr {
+  width: 80%;
+  border: 1px solid rgba(221, 222, 220, 0.311);
+  border-bottom: none;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+footer ul li {
+  list-style: none;
+  margin: 20px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
 }

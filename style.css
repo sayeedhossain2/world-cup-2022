@@ -161,6 +161,7 @@ footer ul {
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  padding: 0;
 }
 footer ul li {
   list-style: none;
@@ -174,7 +175,7 @@ footer ul li a {
 
 .social-icons .social-icon {
   font-size: 30px;
-  color: rgb(234, 67, 12);
+  color: rgb(110, 173, 215);
   margin: 0 10px;
 }
 
@@ -231,6 +232,7 @@ footer ul li a {
   .main-card .sidebar {
     background-color: white;
   }
+
   .sidebar button {
     border: 1px solid grey;
   }

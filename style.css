@@ -112,7 +112,7 @@ main {
 }
 
 .card-info {
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .watch-comment-icon {
@@ -181,6 +181,28 @@ footer ul li a {
   color: rgb(201, 234, 12);
   transition: 0.5s;
 }
+
+/* --------------------------------
+    second website style start 
+-----------------------------------*/
+
+.card-image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.football-scheduel {
+  padding: 20px;
+}
+
+.card-info .team-counter {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+/* --------------------------------
+    second website style end
+-----------------------------------*/
 
 /* media queries start */
 
@@ -266,7 +288,7 @@ footer ul li a {
     flex-direction: column;
   }
 
-  footer ui {
+  footer ul {
     flex-direction: column;
     align-items: center;
   }

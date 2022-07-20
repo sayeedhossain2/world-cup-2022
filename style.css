@@ -75,6 +75,7 @@ main {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
+  margin-right: 16px;
 }
 
 .main-card .sidebar a {
@@ -101,7 +102,7 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  margin-left: 15px;
+  /* margin-left: 15px; */
 }
 
 .card {
@@ -229,7 +230,13 @@ footer ul li a {
   .main-card {
     flex-direction: column;
   }
+  .main-card .sidebar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 
+    height: 130px;
+    margin-top: -30px;
+  }
   .main-card .sidebar {
     background-color: white;
   }
